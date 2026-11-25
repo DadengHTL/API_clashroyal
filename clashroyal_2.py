@@ -8,7 +8,7 @@ url = "https://royaleapi.github.io/cr-api-data/json/cards.json"
 response = requests.get(url, timeout=10)
 response.raise_for_status()
 cards = response.json()
-
+#hallo
 seltenheiten = {
     "gewöhnlich": "Common",
     "common": "Common",
