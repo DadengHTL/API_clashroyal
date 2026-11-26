@@ -30,7 +30,7 @@ try: # Fehlerbehandlung für die Eingabe und Ausgabe der Karteninfos
     print(f"\n Alle Karten mit Seltenheit '{gesucht}':")# gibt alle Karten mit der gesuchten Seltenheit aus
 
     for card in cards: # Durchläuft alle Karten
-      if card.get("rarity") == englische_seltenheit:# Wenn die Seltenheit der Karte mit der gesuchten Seltenheit übereinstimmt, wird die Karte angezeigt
+      if card["rarity"] == englische_seltenheit:# Wenn die Seltenheit der Karte mit der gesuchten Seltenheit übereinstimmt, wird die Karte angezeigt
         print(f"- {card['name']}") # Gibt den Namen der passenden Karte aus.
 
     # Danach nochmal nach dem genauen Namen fragen
