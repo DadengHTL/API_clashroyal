@@ -62,10 +62,10 @@ try: # Fehlerbehandlung für die Eingabe und Ausgabe der Karteninfos
   # 4. Ausgabe der Infos
   if gefundene_karte: # Prüft, ob eine Karte gefunden wurde.
     print(f"\n--- Infos zu {gefundene_karte['name']} ---")
-    print(f"Typ: {gefundene_karte.get('type')}")
-    print(f"Seltenheit: {gefundene_karte.get('rarity')}")
-    print(f"Elixier-Kosten: {gefundene_karte.get('elixir')}")
-    print(f"Beschreibung: {gefundene_karte.get('description')}")
+    print(f"Typ: {gefundene_karte['type']}")
+    print(f"Seltenheit: {gefundene_karte['rarity']}")
+    print(f"Elixier-Kosten: {gefundene_karte['elixir']}")
+    print(f"Beschreibung: {gefundene_karte['description']}")
     
   else:# Wird ausgeführt, wenn keine passende Karte gefunden wurde.
     print("Falsche eingabe!")
