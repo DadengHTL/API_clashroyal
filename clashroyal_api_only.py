@@ -54,7 +54,7 @@ try: # Fehlerbehandlung für die Eingabe und Ausgabe der Karteninfos
 
   # 3. Karte nach Namen suchen (läuft immer – egal ob direkt gesucht oder nach der Liste)
   gefundene_karte = None # bis jz keine Karte gefunden
-  for card in cards:# Durchsucht alle Karten nach dem Namen.
+  for card in cards:# Durchsucht alle Karten nach dem Namen. "in" damit es für user einfacherer ist
     if gesucht in card["name"].lower(): # Prüft, ob der Suchtext im Kartennamen vorkommt.
       gefundene_karte = card # Speichert die gefundene Karte.
       break
