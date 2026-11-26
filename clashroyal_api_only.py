@@ -60,7 +60,7 @@ try: # Fehlerbehandlung für die Eingabe und Ausgabe der Karteninfos
       break
 
   # 4. Ausgabe der Infos
-  if gefundene_karte: # Prüft, ob eine Karte gefunden wurde.
+  if gefundene_karte: # Prüft, ob eine Karte gefunden wurde. none= false, alles andere= true
     print(f"\n--- Infos zu {gefundene_karte['name']} ---")
     print(f"Typ: {gefundene_karte['type']}")
     print(f"Seltenheit: {gefundene_karte['rarity']}")
