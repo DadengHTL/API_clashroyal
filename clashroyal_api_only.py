@@ -38,7 +38,7 @@ try: # Fehlerbehandlung für die Eingabe und Ausgabe der Karteninfos
   elif gesucht == "8er": # Wenn der User 8er eingibt, wird ein zufälliges 8er-Deck generiert
     print("\n--- Zufälliges 8er-Deck ---")
     deck = random.sample(cards, 8) # 8 zufällige Karten aus der Liste auswählen
-    print(deck)
+    
 
     for card in deck:# Geht jede der 8 ausgewählten Karten durch.
       print(f"- {card['name']} (Seltenheit: {card['rarity']}, Elixier-Kosten: {card['elixir']})")# Zeigt Kartenname und Seltenheit an.
