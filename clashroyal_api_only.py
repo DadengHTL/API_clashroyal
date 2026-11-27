@@ -47,7 +47,7 @@ try: # Fehlerbehandlung für die Eingabe und Ausgabe der Karteninfos
       summe = summe + card["elixir"]
     
     durchschnitt = summe / 8 # Berechnet das durchschnittliche Elixier des 8er-Decks.
-    print(f"Durchschnitts-Elixier: {(summe / 8):.2f}")# Gibt den Durchschnitt auf zwei Nachkommastellen formatiert aus.
+    print(f"Durchschnitts-Elixier: {durchschnitt:.2f}")# Gibt den Durchschnitt auf zwei Nachkommastellen formatiert aus.
     exit() # Programm beenden, da das Deck bereits angezeigt wurde
     
 
